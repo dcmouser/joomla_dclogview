@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+
+
+
+	<fieldset
+		name="dclogviewoptions"
+		label="DC LogView Options"
+		description="Options for the log viewer."
+	>
+
+	    <field name="logfiles" type="textarea" filter="string" label="On each line specify full path to a log file" description="On each line specify full path to a log file" rows="10" cols="100"/>
+		<field
+			name="linecount"
+			type="int"
+			default="100"
+			label="Number of lines per page"
+			description="Integer value, default = 100"
+		>
+		</field>
+
+	</fieldset>
+
+
+
+
+
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+	>
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			class="inputbox"
+			validate="rules"
+			filter="rules"
+			component="com_dclogview"
+			section="component"
+		/>
+	</fieldset>
+
+
+
+
+
+</config>

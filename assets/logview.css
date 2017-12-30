@@ -1,0 +1,33 @@
+
+.dccodeline {
+	font-size: 12px;
+	font-family: monospace;
+	color: black;
+	line-height: 1;
+	white-space: pre-wrap;
+}
+
+.truncate {
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ol {
+	list-style: decimal-leading-zero;
+	list-style-position: outside;
+}
+ol li {
+	border-bottom: 1px solid #EEE;
+	color: #CCC;
+	font-weight: 100;
+	font-size: 12px;
+	padding: 4px;
+}
+
+ol li pre {
+	height: auto;
+	overflow: visible;
+}
+
